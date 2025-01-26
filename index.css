@@ -312,3 +312,18 @@
   font-weight: 700;
   font-style: normal;
 }
+.footer {
+  height: 6rem;
+  width: auto;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #111924;
+  text-decoration: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.text,o {
+  padding-top: 40px;
+  align-items: center;
+  text-decoration: none;
+
+}
