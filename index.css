@@ -75,7 +75,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 40px;
-    padding: 3.5rem;
   }
 
   .hero-text {
@@ -93,6 +92,11 @@
     cursor: pointer;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     background-color: #1e293b;
+ }
+ .c1 img {
+  height: 500px;
+    width: 400px;
+    border-radius: 10px;
  }
   .hero-text a {
     
@@ -129,10 +133,10 @@
 
   /* Image Section */
   .hero-image img {
-    width: 300px;
-    height: auto;
+    height: 500px;
+    width: 400px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    
   }
 
   /* Animations */
@@ -193,20 +197,23 @@
 
  }
 
-.ab-main .c1 {
+.ab-main {
     margin-top: 40px;
-    height: 200px;
-    width: 200px;
-    margin-left: 150px;
-    border-color: #facc15;
-    color: #facc15;
+    margin-left: 80px;
     border: 2px;
-    border-style: dashed;
-    border-color: aliceblue;
+    gap: 3rem;
+    display: flex;
     
 }
+.c1{
+   height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+}
 .c2
-{
+{ 
+  padding-top: 6rem;
     text-align: left;
     font-size: 18px ;
     padding-right: 150px;
