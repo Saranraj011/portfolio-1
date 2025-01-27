@@ -263,6 +263,9 @@
     color: #facc15;
     font-weight: bold;
   }
+  .fa-camera {
+    padding-top: 30px;
+  }
 
   #Contact{
     padding: 4rem; 
@@ -298,7 +301,11 @@
  .mail {
   margin: 5px;
  }
-
+.Contact {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
  .con01 {
     display: flex;
     justify-content: space-evenly;
