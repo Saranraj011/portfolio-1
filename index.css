@@ -247,7 +247,7 @@ body {
   font-weight: bold;
 }
 
-.fa-camera {
+.fa-5x{
   padding-top: 30px;
 }
 
@@ -264,6 +264,7 @@ body {
   font-size: 2rem;
   font-weight: bold;
   text-align: left;
+  width: auto;
 }
 
 .cont-box {
@@ -272,13 +273,25 @@ body {
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  width: 400px;
-  gap: 1.5rem;
+  width: 340px;
+  gap: 1rem;
   color: white;
   background-color: #1e293b;
   display: flex;
 }
 
+.cont-box1 {
+  align-content: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  width: 400px;
+gap: 1.5rem;
+  color: white;
+  background-color: #1e293b;
+  display: flex;
+}
 .c-img {
   margin-top: 30px;
   margin-left: 15px;
@@ -290,8 +303,8 @@ body {
 
 .Contact {
   padding-top: 4rem;
-  display: flex;
-  justify-content: space-around;
+ display: flex;
+ justify-content: space-between;
 }
 
 .con01 {
